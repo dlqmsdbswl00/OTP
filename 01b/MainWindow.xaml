@@ -16,7 +16,6 @@
         <!-- 좌측 사이드 메뉴 -->
         <StackPanel Background="#F4F4F4" Grid.Column="0" Grid.ColumnSpan="2">
 
-
             <Image Source="/Images/OTP_LOGO.png" />
             <Button x:Name="btnStart" Click="StartButton_Click" Height="40" Margin="10" HorizontalAlignment="Left" Padding="10,0" VerticalContentAlignment="Center">
                 <StackPanel Orientation="Horizontal">

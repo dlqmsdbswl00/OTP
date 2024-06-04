@@ -20,6 +20,7 @@
 
         <!-- 좌측 사이드 메뉴 -->
         <StackPanel Background="#F4F4F4" Grid.Column="0" Grid.ColumnSpan="2">
+            <Image Source="/Images/OTP_LOGO.png" />
 
             <Button x:Name="btnStart" Click="StartButton_Click" Height="40" Margin="10" HorizontalAlignment="Left" Padding="10,0" VerticalContentAlignment="Center">
                 <StackPanel Orientation="Horizontal">
@@ -62,7 +63,7 @@
         <Grid Grid.Column="2" Background="White">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="Open Source Teaching Program (OTP)에 오신 것을 환영합니다!" 
-                       FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
                 <TextBlock TextWrapping="Wrap"
                        Text="Open Source Teaching Program (OTP)은 오픈 소스 라이선스에 대해 가르치는 교육 플랫폼입니다. OTP를 통해 다양한 오픈 소스 라이선스, 그 특징 및 소프트웨어 개발에서의 활용 방법에 대해 배울 수 있습니다. 초보자든 경험 있는 개발자든, OTP는 오픈 소스 라이선스의 세계를 탐험하는 데 유용한 통찰력을 제공합니다."
                        FontSize="16" Margin="0,0,0,20"/>
