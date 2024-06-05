@@ -57,15 +57,47 @@
 
         <!-- 우측 메인 컨텐츠 영역 -->
         <Grid Grid.Column="1" Background="White" Margin="0,0,0,0">
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Open Source Teaching Program (OTP)에 오신 것을 환영합니다!" 
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+                <TextBlock Text="오픈소스(Open Source)란?" 
                            Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
                 <TextBlock TextWrapping="Wrap"
-                           Text="Open Source Teaching Program (OTP)은 오픈 소스 라이선스에 대해 가르치는 교육 플랫폼입니다. OTP를 통해 다양한 오픈 소스 라이선스, 그 특징 및 소프트웨어 개발에서의 활용 방법에 대해 배울 수 있습니다. 초보자든 경험 있는 개발자든, OTP는 오픈 소스 라이선스의 세계를 탐험하는 데 유용한 통찰력을 제공합니다."
-                           FontSize="16" Margin="0,0,0,20"/>
-                <TextBlock Text="오늘 OTP와 함께 오픈 소스 라이선스의 세계를 탐험해보세요!"
-                           FontSize="16" Height="30" Width="831" Margin="0,0,0,0"/>
-                <Image Source="/Images/mainImage.png" Width="150" Height="150" VerticalAlignment="Top"/>
+                           Text="- 소프트웨어 등을 만들 때 그 소프트웨어가 어떻게 만들어졌는지 알 수 있도록 소스코드를 공개한 것"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="또한 이것을 기초하여 변형, 응용이 가능하다."
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock Text="오픈소스(Open Source)SW 종류" 
+                           Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Linux"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Apache"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Apache HTTP Server"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Mozilla Firefox / Mozilla Thunderbird"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- MySQL / PostgreSQL"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- GNU 프로젝트"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Android 운영 체제"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- OpenOffice / LibreOffice"
+                           FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap"
+                           Text="- Python, Java, PHP"
+                           FontSize="16" Margin="0,0,0,5"/>
             </StackPanel>
         </Grid>
     </Grid>

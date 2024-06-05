@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace _01b
 {
     /// <summary>
-    /// Chap1.xaml에 대한 상호 작용 논리
+    /// Chap4.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Chap1 : Page
+    public partial class Chap4 : Page
     {
-        public Chap1()
+        public Chap4()
         {
             InitializeComponent();
         }

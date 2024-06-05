@@ -27,7 +27,6 @@ namespace _01b
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             // START 버튼 클릭 시 동작 정의
-            MessageBox.Show("START 버튼 클릭됨");
             StartPage newPage = new StartPage();
             this.Content = newPage;
         }
@@ -35,25 +34,29 @@ namespace _01b
         private void Chapter1Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 1 버튼 클릭 시 동작 정의
-            MessageBox.Show("Chapter 1 버튼 클릭됨");
+            Chap1 newPage = new Chap1();
+            this.Content = newPage;
         }
 
         private void Chapter2Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 2 버튼 클릭 시 동작 정의
-            MessageBox.Show("Chapter 2 버튼 클릭됨");
+            Chap2 newPage = new Chap2();
+            this.Content = newPage;
         }
 
         private void Chapter3Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 3 버튼 클릭 시 동작 정의
-            MessageBox.Show("Chapter 3 버튼 클릭됨");
+            Chap3 newPage = new Chap3();
+            this.Content = newPage;
         }
 
         private void Chapter4Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 4 버튼 클릭 시 동작 정의
-            MessageBox.Show("Chapter 4 버튼 클릭됨");
+            Chap4 newPage = new Chap4();
+            this.Content = newPage;
         }
     }
 }
