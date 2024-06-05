@@ -8,13 +8,43 @@
       d:DesignHeight="600" d:DesignWidth="1000"
       Title="Chap2">
 
+
     <Grid Background="White" Margin="0,0,0,0">
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock x:Name="QuizQuestion" Text="퀴즈 질문 1: 오픈 소스 소프트웨어의 예는?" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
-            <TextBox x:Name="AnswerTextBox" Width="300" Height="30" Margin="0,0,0,20"/>
-            <Button x:Name="SubmitButton" Content="제출" Click="SubmitButton_Click" Width="100" Height="30"/>
-            <TextBlock x:Name="FeedbackTextBlock" Text="" FontSize="16" Foreground="Red" Margin="20,0,0,0"/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+            <TextBlock Text="오픈소스(Open Source)란?" 
+                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+            <TextBlock TextWrapping="Wrap"
+                       FontSize="16" Margin="0,0,0,5"><Run Text="소프트웨어 개발 및 배포 모델을 나타내는 데 사용되는 용어"/><LineBreak/><Run Text="소스코드가 공개되어 있고 자유롭게 사용, 수정, 배포할 수 있는 SW를 뜻함"/></TextBlock>
+            <TextBlock Text="오픈소스(Open Source)SW 종류" 
+                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Linux"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Apache"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Apache HTTP Server"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Mozilla Firefox / Mozilla Thunderbird"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- MySQL / PostgreSQL"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- GNU 프로젝트"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Android 운영 체제"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- OpenOffice / LibreOffice"
+                       FontSize="16" Margin="0,0,0,5"/>
+            <TextBlock TextWrapping="Wrap"
+                       Text="- Python, Java, PHP"
+                       FontSize="16" Margin="0,0,0,5"/>
         </StackPanel>
     </Grid>
-    
+
 </Page>

@@ -23,21 +23,21 @@
             <Button x:Name="btnCh1" Click="Chapter1Button_Click" Height="40" Margin="10,0,10,10" HorizontalAlignment="Left" Padding="10,0" VerticalContentAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Text="📄" Margin="5,0"/>
-                    <TextBlock FontSize="14" Text="오픈소스 개요"/>
+                    <TextBlock FontSize="14" Text="오픈소스"/>
                 </StackPanel>
             </Button>
 
             <Button x:Name="btnCh2" Click="Chapter2Button_Click" Height="40" Margin="10,0,10,10" HorizontalAlignment="Left" Padding="10,0" VerticalContentAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Text="📄" Margin="5,0"/>
-                    <TextBlock FontSize="14" Text="오픈소스 퀴즈"/>
+                    <TextBlock FontSize="14" Text="오픈소스 라이선스"/>
                 </StackPanel>
             </Button>
 
             <Button x:Name="btnCh3" Click="Chapter3Button_Click" Height="40" Margin="10,0,10,10" HorizontalAlignment="Left" Padding="10,0" VerticalContentAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Text="📄" Margin="5,0"/>
-                    <TextBlock FontSize="14" Text="Chapter 3"/>
+                    <TextBlock FontSize="14" Text="오픈소스 라이선스 퀴즈"/>
                 </StackPanel>
             </Button>
 

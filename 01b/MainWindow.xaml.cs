@@ -20,7 +20,7 @@ namespace _01b
         private void Chapter1Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 1 버튼 클릭 시 동작 정의
-            MainFrame.Navigate(new Chap1());
+            MainFrame.Navigate(new Chap1_0());
         }
 
         private void Chapter2Button_Click(object sender, RoutedEventArgs e)
