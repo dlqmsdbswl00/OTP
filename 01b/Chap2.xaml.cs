@@ -24,39 +24,36 @@ namespace _01b
             InitializeComponent();
         }
 
+
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             // START 버튼 클릭 시 동작 정의
-            StartPage newPage = new StartPage();
-            this.Content = newPage;
+            NavigationService.Navigate(new StartPage());
         }
 
         private void Chapter1Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 1 버튼 클릭 시 동작 정의
-            Chap1 newPage = new Chap1();
-            this.Content = newPage;
+            NavigationService.Navigate(new Chap1());
         }
 
         private void Chapter2Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 2 버튼 클릭 시 동작 정의
-            Chap2 newPage = new Chap2();
-            this.Content = newPage;
+            NavigationService.Navigate(new Chap2());
         }
 
         private void Chapter3Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 3 버튼 클릭 시 동작 정의
-            Chap3 newPage = new Chap3();
-            this.Content = newPage;
+            NavigationService.Navigate(new Chap3());
         }
 
         private void Chapter4Button_Click(object sender, RoutedEventArgs e)
         {
             // Chapter 4 버튼 클릭 시 동작 정의
-            Chap4 newPage = new Chap4();
-            this.Content = newPage;
+            NavigationService.Navigate(new Chap4());
         }
     }
 }
+
