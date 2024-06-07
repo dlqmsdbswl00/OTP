@@ -23,5 +23,15 @@ namespace _01b
         {
             InitializeComponent();
         }
+
+        private void PreviousButton_Click(object sender, RoutedEventArgs e)
+        {
+            Chap1_1 newPage = new Chap1_1();
+            NavigationService.Navigate(newPage);
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }

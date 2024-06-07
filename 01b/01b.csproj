@@ -154,5 +154,14 @@
   <ItemGroup>
     <Resource Include="Images\FreeSW.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\오픈소스공급망구성요소추세.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Solar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LOG4J.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

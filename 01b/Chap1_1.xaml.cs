@@ -26,24 +26,14 @@ namespace _01b
 
         private void PreviousButton_Click(object sender, RoutedEventArgs e)
         {
-            // 이전 페이지로 이동
-            // 예를 들어 Chap0 페이지가 있다면:
-            // Chap0 newPage = new Chap0();
-            // NavigationService.Navigate(newPage);
-            // 이런 식으로 페이지를 변경합니다.
-
             Chap1_0 newPage = new Chap1_0();
             NavigationService.Navigate(newPage);
         }
 
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
-            // 다음 페이지로 이동
-            // 예를 들어 Chap2 페이지가 있다면:
-            // Chap2 newPage = new Chap2();
-            // NavigationService.Navigate(newPage);
-            // 이런 식으로 페이지를 변경합니다.
-
+            Chap1_2 newPage = new Chap1_2();
+            NavigationService.Navigate(newPage);
         }
     }
 }
