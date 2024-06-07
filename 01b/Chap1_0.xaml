@@ -14,8 +14,9 @@
 
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
 
-                <TextBlock Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">
-                    <Hyperlink NavigateUri="https://aws.amazon.com/ko/what-is/open-source/">
+                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">
+                    <Hyperlink NavigateUri="https://aws.amazon.com/ko/what-is/open-source/"
+                               Foreground="{StaticResource MainBlueBrush}">
                         <Run Text="오픈소스(Open Source)"/>
                      </Hyperlink>
                     <Run Text="란?"/>
@@ -32,79 +33,90 @@
                        FontSize="16" Margin="0,0,0,5"/>
 
 
-                <TextBlock Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20">
-                    <Hyperlink NavigateUri="https://terms.naver.com/entry.naver?docId=3480349&amp;cid=58439&amp;categoryId=58439">
+                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,20,0,20">
+                    <Hyperlink NavigateUri="https://terms.naver.com/entry.naver?docId=3480349&amp;cid=58439&amp;categoryId=58439"
+                               Foreground="{StaticResource MainBlueBrush}">
                         <Run Text="오픈소스(Open Source) SW"/>
                     </Hyperlink>
                     <Run Text="종류"/>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.linux.org/">
+                    <Hyperlink NavigateUri="https://www.linux.org/" 
+                               Foreground="Black">
                         <Run Text="- Linux"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.nic.funet.fi/pub/sci/bio/life/insecta/lepidoptera/ditrysia/gelechioidea/depressariidae/depressariinae/apachea/">
+                    <Hyperlink NavigateUri="https://www.nic.funet.fi/pub/sci/bio/life/insecta/lepidoptera/ditrysia/gelechioidea/depressariidae/depressariinae/apachea/"
+                               Foreground="Black">
                         <Run Text="- Apache"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.mozilla.org/ko/firefox/">
+                    <Hyperlink NavigateUri="https://www.mozilla.org/ko/firefox/"
+                               Foreground="Black">
                         <Run Text="- Mozila FireFox"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.mysql.com/">
+                    <Hyperlink NavigateUri="https://www.mysql.com/"
+                               Foreground="Black">
                         <Run Text="- MySQL"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.postgresql.org/">
+                    <Hyperlink NavigateUri="https://www.postgresql.org/"
+                               Foreground="Black">
                         <Run Text="- PostgreSQL"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.gnu.org/gnu/thegnuproject">
+                    <Hyperlink NavigateUri="https://www.gnu.org/gnu/thegnuproject"
+                               Foreground="Black">
                         <Run Text="- GNU"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.android.com/">
+                    <Hyperlink NavigateUri="https://www.android.com/"
+                               Foreground="Black">
                         <Run Text="- Android OS"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.openoffice.org/">
+                    <Hyperlink NavigateUri="https://www.openoffice.org/"
+                               Foreground="Black">
                         <Run Text="- OpenOffice"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://ko.libreoffice.org/">
+                    <Hyperlink NavigateUri="https://ko.libreoffice.org/"
+                               Foreground="Black">
                         <Run Text="- LibreOffice"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.python.org/">
+                    <Hyperlink NavigateUri="https://www.python.org/"
+                               Foreground="Black">
                         <Run Text="- Python "/>
                      </Hyperlink>
                 </TextBlock>
 
                 <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.java.com/ko/">
+                    <Hyperlink NavigateUri="https://www.java.com/ko/"
+                               Foreground="Black">
                         <Run Text="- Java "/>
                      </Hyperlink>
                 </TextBlock>
-
             </StackPanel>
         </ScrollViewer>
 

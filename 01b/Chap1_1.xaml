@@ -12,47 +12,26 @@
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
 
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
-                <TextBlock Text="chap1 2페이지 내용" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20" Height="500" Height="900">
+
+                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"
+                           Text="1) Free SW/ Open source SW?"/>
+
+                
                 <TextBlock TextWrapping="Wrap"
-                       Text="- 소프트웨어 등을 만들 때 그 소프트웨어가 어떻게 만들어졌는지 알 수 있도록 소스코드를 공개한 것"
-                       FontSize="16" Margin="0,0,0,5"/>
+                       Text="FreeSW?" FontWeight="Bold" Foreground="{StaticResource DarkBlueBrush}"
+                       FontSize="20" Margin="0,0,0,5"/>
+                
                 <TextBlock TextWrapping="Wrap"
-                       Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"
+                       Text="- 자유 소프트웨어는 실행, 복사, 배포, 연구, 수정의 자유가 있으며 사용자의 자유를 보장해야함 _ 소프트웨어의 자유 강조"
                        FontSize="16" Margin="0,0,0,5"/>
+
                 <TextBlock TextWrapping="Wrap"
-                       Text="또한 이것을 기초하여 변형, 응용이 가능하다."
+                       Text="오픈소스 소프트웨어와의 차이는 “소스코드의 공개와 자유로운 수정, 재배포를 강조하나, ** 라이선스에 따라 사용자에게 일부 제한을 부과함** _ 소프트웨어의 소스 코드 공개, 개발 방법 강조"
                        FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock Text="오픈소스(Open Source)SW 종류" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Linux"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Apache"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Apache HTTP Server"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Mozilla Firefox / Mozilla Thunderbird"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- MySQL / PostgreSQL"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- GNU 프로젝트"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Android 운영 체제"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- OpenOffice / LibreOffice"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Python, Java, PHP"
-                       FontSize="16" Margin="0,0,0,5"/>
+
+                <Image Source="/Images/FreeSW.png" Width="800" Margin="0,10,0,10"/>
+
             </StackPanel>
         </ScrollViewer>
 

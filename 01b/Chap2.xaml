@@ -12,11 +12,11 @@
     <Grid Background="White" Margin="0,0,0,0">
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
             <TextBlock Text="오픈소스(Open Source)란?" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+                       Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
             <TextBlock TextWrapping="Wrap"
                        FontSize="16" Margin="0,0,0,5"><Run Text="소프트웨어 개발 및 배포 모델을 나타내는 데 사용되는 용어"/><LineBreak/><Run Text="소스코드가 공개되어 있고 자유롭게 사용, 수정, 배포할 수 있는 SW를 뜻함"/></TextBlock>
             <TextBlock Text="오픈소스(Open Source)SW 종류" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
+                       Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
             <TextBlock TextWrapping="Wrap"
                        Text="- Linux"
                        FontSize="16" Margin="0,0,0,5"/>
