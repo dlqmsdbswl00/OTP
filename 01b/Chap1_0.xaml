@@ -13,8 +13,14 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
 
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
-                <TextBlock Text="오픈소스(Open Source)란?" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                <TextBlock Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">
+                    <Hyperlink NavigateUri="https://aws.amazon.com/ko/what-is/open-source/">
+                        <Run Text="오픈소스(Open Source)"/>
+                     </Hyperlink>
+                    <Run Text="란?"/>
+                </TextBlock>
+
                 <TextBlock TextWrapping="Wrap"
                        Text="- 소프트웨어 등을 만들 때 그 소프트웨어가 어떻게 만들어졌는지 알 수 있도록 소스코드를 공개한 것"
                        FontSize="16" Margin="0,0,0,5"/>
@@ -22,37 +28,83 @@
                        Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"
                        FontSize="16" Margin="0,0,0,5"/>
                 <TextBlock TextWrapping="Wrap"
-                       Text="또한 이것을 기초하여 변형, 응용이 가능하다."
+                       Text="  또한 이것을 기초하여 변형, 응용이 가능하다."
                        FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock Text="오픈소스(Open Source)SW 종류" 
-                       Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Linux"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Apache"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Apache HTTP Server"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Mozilla Firefox / Mozilla Thunderbird"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- MySQL / PostgreSQL"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- GNU 프로젝트"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Android 운영 체제"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- OpenOffice / LibreOffice"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- Python, Java, PHP"
-                       FontSize="16" Margin="0,0,0,5"/>
+
+
+                <TextBlock Foreground="#007AFF" FontSize="24" FontWeight="Bold" Margin="0,20,0,20">
+                    <Hyperlink NavigateUri="https://terms.naver.com/entry.naver?docId=3480349&amp;cid=58439&amp;categoryId=58439">
+                        <Run Text="오픈소스(Open Source) SW"/>
+                    </Hyperlink>
+                    <Run Text="종류"/>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.linux.org/">
+                        <Run Text="- Linux"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.nic.funet.fi/pub/sci/bio/life/insecta/lepidoptera/ditrysia/gelechioidea/depressariidae/depressariinae/apachea/">
+                        <Run Text="- Apache"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.mozilla.org/ko/firefox/">
+                        <Run Text="- Mozila FireFox"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.mysql.com/">
+                        <Run Text="- MySQL"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.postgresql.org/">
+                        <Run Text="- PostgreSQL"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.gnu.org/gnu/thegnuproject">
+                        <Run Text="- GNU"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.android.com/">
+                        <Run Text="- Android OS"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.openoffice.org/">
+                        <Run Text="- OpenOffice"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://ko.libreoffice.org/">
+                        <Run Text="- LibreOffice"/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.python.org/">
+                        <Run Text="- Python "/>
+                     </Hyperlink>
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                    <Hyperlink NavigateUri="https://www.java.com/ko/">
+                        <Run Text="- Java "/>
+                     </Hyperlink>
+                </TextBlock>
+
             </StackPanel>
         </ScrollViewer>
 
