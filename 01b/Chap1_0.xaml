@@ -5,14 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_01b"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="1000"
+d:DesignHeight="600" d:DesignWidth="825"
       Title="Chap1_0">
 
-    <Grid Background="White" Margin="0,0,0,0">
+    <Grid Background="White">
+        <!-- Grid의 행 정의 -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel Margin="20">
 
                 <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">
                     <Hyperlink NavigateUri="https://aws.amazon.com/ko/what-is/open-source/"
@@ -121,7 +125,9 @@
         </ScrollViewer>
 
         <!-- 이전/다음 버튼 -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    Background="White">
             <Button Content="이전" Margin="10" Click="PreviousButton_Click"/>
             <Button Content="다음" Margin="10" Click="NextButton_Click"/>
         </StackPanel>

@@ -5,14 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_01b"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="1000"
+d:DesignHeight="600" d:DesignWidth="825"
       Title="Chap1_1">
 
-    <Grid Background="White" Margin="0,0,0,0">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
 
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20" Height="500" Height="900">
+            <StackPanel Margin="20">
 
                 <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"
                            Text="1) Free SW/ Open source SW?"/>
@@ -30,13 +34,14 @@
                        Text="오픈소스 소프트웨어와의 차이는 “소스코드의 공개와 자유로운 수정, 재배포를 강조하나, ** 라이선스에 따라 사용자에게 일부 제한을 부과함** _ 소프트웨어의 소스 코드 공개, 개발 방법 강조"
                        FontSize="16" Margin="0,0,0,5"/>
 
-                <Image Source="/Images/FreeSW.png" Width="800" Margin="0,10,0,10"/>
+                <Image Source="/Images/FreeSW.png" Width="700" Margin="0,10,0,10"/>
 
             </StackPanel>
         </ScrollViewer>
 
         <!-- 이전/다음 버튼 -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    Background="White">
             <Button Content="이전" Margin="10" Click="PreviousButton_Click"/>
             <Button Content="다음" Margin="10" Click="NextButton_Click"/>
         </StackPanel>

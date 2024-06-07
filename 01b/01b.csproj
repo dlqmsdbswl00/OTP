@@ -64,6 +64,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Chap1_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chap2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -89,6 +93,9 @@
     </Compile>
     <Compile Include="Chap1_1.xaml.cs">
       <DependentUpon>Chap1_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chap1_2.xaml.cs">
+      <DependentUpon>Chap1_2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Chap2.xaml.cs">
       <DependentUpon>Chap2.xaml</DependentUpon>
