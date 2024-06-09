@@ -18,26 +18,23 @@ d:DesignHeight="600" d:DesignWidth="825"
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
             <StackPanel Margin="20">
 
-                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">
+                <TextBlock Style="{StaticResource MainTitleBlockStyle}">
                     <Hyperlink NavigateUri="https://aws.amazon.com/ko/what-is/open-source/"
                                Foreground="{StaticResource MainBlueBrush}">
                         <Run Text="오픈소스(Open Source)"/>
-                     </Hyperlink>
+                    </Hyperlink>
                     <Run Text="란?"/>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap"
-                       Text="- 소프트웨어 등을 만들 때 그 소프트웨어가 어떻게 만들어졌는지 알 수 있도록 소스코드를 공개한 것"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"
-                       FontSize="16" Margin="0,0,0,5"/>
-                <TextBlock TextWrapping="Wrap"
-                       Text="  또한 이것을 기초하여 변형, 응용이 가능하다."
-                       FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                       Text="- 소프트웨어 등을 만들 때 그 소프트웨어가 어떻게 만들어졌는지 알 수 있도록 소스코드를 공개한 것"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                       Text="- 소스코드를 알면 그 프로그램, 소프트웨어가 어떻게 구성되어 있는지 알 수 있다,"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                       Text="  또한 이것을 기초하여 변형, 응용이 가능하다."/>
 
 
-                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,20,0,20">
+                <TextBlock Style="{StaticResource MainTitleBlockStyle}">
                     <Hyperlink NavigateUri="https://terms.naver.com/entry.naver?docId=3480349&amp;cid=58439&amp;categoryId=58439"
                                Foreground="{StaticResource MainBlueBrush}">
                         <Run Text="오픈소스(Open Source) SW"/>
@@ -45,77 +42,77 @@ d:DesignHeight="600" d:DesignWidth="825"
                     <Run Text="종류"/>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.linux.org/" 
                                Foreground="Black">
                         <Run Text="- Linux"/>
                      </Hyperlink>
                 </TextBlock>
-
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+ 
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.nic.funet.fi/pub/sci/bio/life/insecta/lepidoptera/ditrysia/gelechioidea/depressariidae/depressariinae/apachea/"
                                Foreground="Black">
                         <Run Text="- Apache"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.mozilla.org/ko/firefox/"
                                Foreground="Black">
                         <Run Text="- Mozila FireFox"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.mysql.com/"
                                Foreground="Black">
                         <Run Text="- MySQL"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.postgresql.org/"
                                Foreground="Black">
                         <Run Text="- PostgreSQL"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.gnu.org/gnu/thegnuproject"
                                Foreground="Black">
                         <Run Text="- GNU"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.android.com/"
                                Foreground="Black">
                         <Run Text="- Android OS"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.openoffice.org/"
                                Foreground="Black">
                         <Run Text="- OpenOffice"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://ko.libreoffice.org/"
                                Foreground="Black">
                         <Run Text="- LibreOffice"/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.python.org/"
                                Foreground="Black">
                         <Run Text="- Python "/>
                      </Hyperlink>
                 </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,0,0,5">
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
                     <Hyperlink NavigateUri="https://www.java.com/ko/"
                                Foreground="Black">
                         <Run Text="- Java "/>

@@ -15,54 +15,62 @@
         </Grid.RowDefinitions>
 
 
-
-
         <!-- 첫 번째 열에 포함된 요소 -->
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
 
             <StackPanel Margin="20">
 
-                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"
-                           Text="2) 오픈소스 SW 공급망 구성요소 및 추세 / 피해사례"/>
+                <TextBlock Style="{StaticResource MainTitleBlockStyle}"
+                           Text="2) 지식재산권을 통한 오픈소스 보호 고려사항"/>
 
-                <Image Source="/Images/오픈소스공급망구성요소추세.png" Width="780" Margin="0,10,0,10" />
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}"
+                           Text="1. 오픈소스는 지식재산권으로써 저작권, 특허권, 상표권, 영업비밀로 보호된다는 것을 명심"/>
 
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center"
-                       Text="하나의 취약점과 공격으로 퍼질 수 있는 SW 공급망 피해" FontWeight="Bold" Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="20" Margin="0,0,0,50"/>
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="[소프트웨어에 인정되는 지식재산권 4유형 정의]"/>
 
-
-
-                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Foreground="{StaticResource MainBlueBrush}"
-                       FontSize="24" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.solarwinds.com/"
-           Foreground="{StaticResource MainBlueBrush}">
-    <Run Text="SolarWinds"/>
-</Hyperlink>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
+                    <Run Text="저작권 : "
+                     FontWeight="Bold"/>
+                    <Run Text="사람의 사상이나 감정을 문자, 소리, 영상 등 다양하게 표현 된 표현물에 ‘창작성’이 있는 저작물에 대한 소유권을 인정"/>
                 </TextBlock>
 
-                <Image Source="/Images/Solar.bmp" Width="300" Margin="0,10,0,10" HorizontalAlignment="Left"/>
-
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left"
-                       Text="2020년 러시아 사이버 범죄그룹 “Nobelium” 공격&#10;18,000여개 조직에 악성 코드 감염" 
-                           Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="16" Margin="0,0,0,5"/>
-
-
-                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Foreground="{StaticResource MainBlueBrush}"
-                       FontSize="24" Margin="0,50,0,5">
-                    <Hyperlink NavigateUri="https://logging.apache.org/log4j/2.x/"
-                               Foreground="{StaticResource MainBlueBrush}">
-                        <Run Text="LOG4J"/>
-                     </Hyperlink>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
+                    <Run Text="특허권 : " FontWeight="Bold"/>
+                    <Run Text="기술의 발전을 촉진하여 산업 발전 이바지함을 목적으로 사점 독점 보장 제도 출원일로부터 1년 6개월 후 공개되며 선원주의로 먼저 출원한 자의 특허 인정"/>
                 </TextBlock>
 
-                <Image Source="/Images/LOG4J.bmp" Width="300" Margin="0,10,0,10" HorizontalAlignment="Left"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
+                    <Run Text="상표권 : " FontWeight="Bold"/>
+                    <Run Text="자신과 타인의 상품을 식별하기 위해 사용하는 기호, 문자, 도형 등 표현방식에 상관없이 상품의 출처를 나타내는 모든 것"/>
+                </TextBlock>
 
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left"
-                       Text="2021년 보안 취약점 발견으로 모든 서버에 영향을 미칠 수 있는 취약점으로 분류" 
-                           Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}">
+                    <Run Text="영업비밀 : " FontWeight="Bold"/>
+                    <Run Text="타인의 상표 부정사용 등의 부정경쟁 행위와 영업비밀을 침해하는 행위를 방지하여 건전한 거래질서 유지"/>
+                </TextBlock>
+
+
+                
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}" Margin="10,20,0,0"
+                           Text="2. 오픈소스 라이선스는 자유로운 사용을 위한 사용허가서, 사용을 위한 계약 사항(의무사항)준수가 필요"/>
+
+
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 자유롭게 소스코드를 사용, 수정, 배포"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 라이선스를 통해 프로그램 독점 방지"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 오픈소스 라이선스는 일정 수준의 의무사항을 포함"/>
+                <Image Source="/Images/오픈소스 보호 고려사항 (2).png" Width="700" Margin="0,10,0,10"/>
+
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}" Margin="10,20,0,0"
+                           Text="3. 보안 취약점은 실제 공격 구현이 가능한 오류로써 관리되지 못한 상태로 방치되고 있어 위험을 초래"/>
+                <Image Source="/Images/오픈소스 보호 고려사항 (3).png" Width="700" Margin="0,10,0,10"/>
+
+
             </StackPanel>
 
         </ScrollViewer>

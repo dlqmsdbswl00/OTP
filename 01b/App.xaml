@@ -4,12 +4,10 @@
              xmlns:local="clr-namespace:_01b"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- 색상 리소스 정의 -->
-        <Color x:Key="MainBlueColor">#007AFF</Color>
-        <Color x:Key="DarkBlueColor">#4e5761</Color>
-
-        <!-- 브러쉬 리소스 정의 -->
-        <SolidColorBrush x:Key="MainBlueBrush" Color="{StaticResource MainBlueColor}"/>
-        <SolidColorBrush x:Key="DarkBlueBrush" Color="{StaticResource DarkBlueColor}"/>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/style/txtStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

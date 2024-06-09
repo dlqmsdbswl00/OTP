@@ -68,6 +68,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Chap1_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chap2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +101,9 @@
     <Compile Include="Chap1_2.xaml.cs">
       <DependentUpon>Chap1_2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chap1_3.xaml.cs">
+      <DependentUpon>Chap1_3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Chap2.xaml.cs">
       <DependentUpon>Chap2.xaml</DependentUpon>
     </Compile>
@@ -111,6 +118,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="style\txtStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,6 +173,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\LOG4J.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\오픈소스 보호 고려사항 %282%29.png" />
+    <Resource Include="Images\오픈소스 보호 고려사항 %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
