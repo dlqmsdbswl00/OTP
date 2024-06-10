@@ -63,12 +63,12 @@
                            Text="- 라이선스를 통해 프로그램 독점 방지"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                            Text="- 오픈소스 라이선스는 일정 수준의 의무사항을 포함"/>
-                <Image Source="/Images/오픈소스 보호 고려사항 (2).png" Width="700" Margin="0,10,0,10"/>
+                <Image Source="/Images/오픈소스 보호 고려사항 (2).png" Width="500" Margin="0,10,0,10"/>
 
 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}" Margin="10,20,0,0"
                            Text="3. 보안 취약점은 실제 공격 구현이 가능한 오류로써 관리되지 못한 상태로 방치되고 있어 위험을 초래"/>
-                <Image Source="/Images/오픈소스 보호 고려사항 (3).png" Width="700" Margin="0,10,0,10"/>
+                <Image Source="/Images/오픈소스 보호 고려사항 (3).png" Width="600" Margin="0,10,0,10"/>
 
 
             </StackPanel>

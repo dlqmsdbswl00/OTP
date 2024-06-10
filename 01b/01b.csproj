@@ -178,5 +178,16 @@
     <Resource Include="Images\오픈소스 보호 고려사항 %282%29.png" />
     <Resource Include="Images\오픈소스 보호 고려사항 %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\제로트러스트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\보안되지않은공급량.png" />
+    <Resource Include="Images\보안되지않은배포채널.png" />
+    <Resource Include="Images\보안되지않은코드.png" />
+    <Resource Include="Images\보안되지않은타사구성요소.png" />
+    <Resource Include="Images\안전하지않은도구체인.png" />
+    <Resource Include="Images\안전하지않은파이프라인.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

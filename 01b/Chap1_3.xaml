@@ -22,49 +22,136 @@
 
             <StackPanel Margin="20">
 
-                <TextBlock Foreground="{StaticResource MainBlueBrush}" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"
-                           Text="2) 오픈소스 SW 공급망 구성요소 및 추세 / 피해사례"/>
+                <TextBlock Style="{StaticResource MainTitleBlockStyle}"
+                           Text="3) 오픈소스 SW 공급망 구성요소 및 추세 / 피해사례"/>
 
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}"
+                           Text="1. SW 공급망 구성요소"/>
                 <Image Source="/Images/오픈소스공급망구성요소추세.png" Width="780" Margin="0,10,0,10" />
 
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center"
-                       Text="하나의 취약점과 공격으로 퍼질 수 있는 SW 공급망 피해" FontWeight="Bold" Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="20" Margin="0,0,0,50"/>
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}"
+                       Text="2. 하나의 취약점과 공격으로 퍼질 수 있는 SW 공급망 피해"/>
 
 
 
-                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Foreground="{StaticResource MainBlueBrush}"
-                       FontSize="24" Margin="0,0,0,5">
-                    <Hyperlink NavigateUri="https://www.solarwinds.com/"
-           Foreground="{StaticResource MainBlueBrush}">
-    <Run Text="SolarWinds"/>
-</Hyperlink>
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}">
+                    <Hyperlink NavigateUri="https://www.solarwinds.com/">
+                    <Run Text="- SolarWinds" Foreground="Black"/>
+                    </Hyperlink>
                 </TextBlock>
-
                 <Image Source="/Images/Solar.bmp" Width="300" Margin="0,10,0,10" HorizontalAlignment="Left"/>
 
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left"
-                       Text="2020년 러시아 사이버 범죄그룹 “Nobelium” 공격&#10;18,000여개 조직에 악성 코드 감염" 
-                           Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="16" Margin="0,0,0,5"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                       Text="2020년 러시아 사이버 범죄그룹 “Nobelium” 공격&#10;18,000여개 조직에 악성 코드 감염"/>
 
 
-                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Foreground="{StaticResource MainBlueBrush}"
-                       FontSize="24" Margin="0,50,0,5">
-                    <Hyperlink NavigateUri="https://logging.apache.org/log4j/2.x/"
-                               Foreground="{StaticResource MainBlueBrush}">
-                        <Run Text="LOG4J"/>
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}">
+                    <Hyperlink NavigateUri="https://logging.apache.org/log4j/2.x/">
+                        <Run Text="- LOG4J" Foreground="Black"/>
                      </Hyperlink>
                 </TextBlock>
 
                 <Image Source="/Images/LOG4J.bmp" Width="300" Margin="0,10,0,10" HorizontalAlignment="Left"/>
 
-                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left"
-                       Text="2021년 보안 취약점 발견으로 모든 서버에 영향을 미칠 수 있는 취약점으로 분류" 
-                           Foreground="{StaticResource DarkBlueBrush}"
-                       FontSize="16" Margin="0,0,0,5"/>
-            </StackPanel>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                       Text="2021년 보안 취약점 발견으로 모든 서버에 영향을 미칠 수 있는 취약점으로 분류"/>
 
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}">
+                    <Run Text="3. SW 공급망 보안을 위한 방법 -> 모든 구성 SW의 '무결성'목적의 "/>
+                    <Hyperlink NavigateUri="https://www.ibm.com/kr-ko/topics/zero-trust">
+                        <Run Text="제로트러스트"/>
+                    </Hyperlink>
+                </TextBlock>
+                <Image Source="/Images/제로트러스트.png" />
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="제로트러스트 보안 아키텍처는 신뢰는 취약점으로 인식, 모든 구성요소는 독립적으로 신뢰성을 확보해야 한다."/>
+
+
+
+                <!-- 이미지를 2x3 행렬로 배치 -->
+                <Grid Margin="0,20,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- 첫 번째 행 -->
+                    <Image Source="/Images/보안되지않은코드.png" 
+                           Grid.Row="0" Grid.Column="0" 
+                           Width="200" Height="200" Margin="10"/>
+                    <Image Source="/Images/보안되지않은타사구성요소.png" 
+                           Grid.Row="0" Grid.Column="1" 
+                           Width="200" Height="200" Margin="10"/>
+                    <Image Source="/Images/보안되지않은배포채널.png" 
+                           Grid.Row="0" Grid.Column="2" 
+                           Width="200" Height="200" Margin="10"/>
+
+                    <!-- 두 번째 행 -->
+                    <Image Source="/Images/보안되지않은공급량.png" 
+                           Grid.Row="1" Grid.Column="0" 
+                           Width="200" Height="200" Margin="10"/>
+                    <Image Source="/Images/안전하지않은도구체인.png" 
+                           Grid.Row="1" Grid.Column="1" 
+                           Width="200" Height="200" Margin="10"/>
+                    <Image Source="/Images/안전하지않은파이프라인.png" 
+                           Grid.Row="1" Grid.Column="2" 
+                           Width="200" Height="200" Margin="10"/>
+                </Grid>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="SW Supply Chain Security는 SW 개발부터 배포까지 모든 프로세스의 보안과 무결성 보장 조치 의미"/>
+
+
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}"
+                           Text="4. 컴퓨터프로그램 저작물로써 오픈소스 보호"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 오픈소스는 컴퓨터프로그램 저작물로써 저작권에 의해 보호됨"/>
+                
+                
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="컴퓨터프로그램 저작물"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 사람의 사상 등이 ‘창작성’을 보유하여 저작권을 갖는 창작물의 한 유형"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 컴퓨터 등 정보처리 장치 안에서 지시, 명령으로 이루어져 직접 또는 간접으로 사용되어 특정한 결과를 발생시켜 창작성을 갖는 것"/>
+
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="기술적, 산업적 변화에 따른 컴퓨터프로그램 저작물 동향"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="1. 시청각 자료의 지시명령화 : 이미지, 음성 등의 데이터가 기술적 변화와 압축 기술의 발전에 따라 지시명령의 형태로 저장되어 컴퓨터프로그램 저작물과 시청각 자료의 구별 어려움"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="2. 컴퓨터프로그램의 멀티미디어화 : 텍스트 기반의 컴퓨터프로그램 저작물이 GUI 기술 등의 발전으로 종합 저작물로서 성격을 가짐(ex.게임) 이것은 각기 다른 저작물로 보호되어 소송 시 원고에 불리"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="3. 객체지향형 프로그래밍 환경 : 객체지향형 프로그래밍 환경으로 코드 재사용이 증가. 이에따라 컴퓨터프로그램 저작물의 핵심은 텍스트 기반의 지시명령이 아닌 동작이며 비문언적 요소의 보호 문제 대두"/>
+
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="* 복제 및 개작 등 방법으로 동일하거나 유사할 경우 저작권 침해"/>
+                
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="* 저작물의 실질적 유사성을 판단하는 보편적 방법"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="1. 추상화 과정을 통해 단계적 구성요소로 분해"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="2. 여과 과정에서 보호 대상에서 제외되는 부분(아이디어 부분, 창작성 없는 부분) 제거"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="3. 여과 과정 후 남은 부분을 보호 대상과의 비교하여 실질적 유사성을 판단"/>
+
+
+                <TextBlock Style="{StaticResource SubtitleBlockStyle}"
+                           Text="5. 저작권법 제한의 유형과 오픈소스 공정사용"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 오픈(개방)의 특성으로 공공 이익 도모 취지의 공정 사용으로 소송의 변수로 작용할 수 있음"/>
+                
+
+
+            </StackPanel>
         </ScrollViewer>
 
 
