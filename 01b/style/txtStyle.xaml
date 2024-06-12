@@ -14,7 +14,7 @@
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="24"/>
         <Setter Property="Foreground" Value="{StaticResource MainBlueBrush}"/>
-        <Setter Property="Margin" Value="0,10,0,20"/>
+        <Setter Property="Margin" Value="0,30,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>
@@ -34,7 +34,7 @@
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="18"/>
         <Setter Property="Foreground" Value="Black"/>
-        <Setter Property="Margin" Value="15,10,0,10"/>
+        <Setter Property="Margin" Value="15,20,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>

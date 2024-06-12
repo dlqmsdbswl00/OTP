@@ -19,10 +19,13 @@
             <TextBlock Text="오픈소스 라이선스 교육용 프로그램" 
                        Foreground="Black" 
                        FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
-            <TextBlock Text="시작하려면 왼쪽 상단의 START 버튼을 누르세요" 
-                       Foreground="{StaticResource DarkBlueBrush}" 
-                       FontSize="15" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" 
+                           Foreground="Gray" HorizontalAlignment="Center"
+                           Text="시작하려면 왼쪽 상단의 START 버튼을 누르세요"/>
             <Image Source="/Images/mainImage.png" Width="200" Height="200" VerticalAlignment="Top" Margin="20"/>
+
+            
+
         </StackPanel>
     </Grid>
 </Page>

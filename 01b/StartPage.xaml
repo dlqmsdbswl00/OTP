@@ -16,6 +16,10 @@
             <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                        Text="오늘 OTP와 함께 오픈 소스 라이선스의 세계를 탐험해보세요!"/>
             <Image Source="/Images/mainImage.png" Width="150" Height="150" VerticalAlignment="Top"/>
+            
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" 
+                           Foreground="Gray" HorizontalAlignment="Center"
+                           Text="CHAP 1 버튼을 눌러 학습을 시작하세요"/>
         </StackPanel>
     </Grid>
 </Page>
