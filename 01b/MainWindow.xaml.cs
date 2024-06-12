@@ -40,5 +40,10 @@ namespace _01b
             // Chapter 4 버튼 클릭 시 동작 정의
             MainFrame.Navigate(new Chap4());
         }
+
+        private void OTP_LOGO_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new IntroPage());
+        }
     }
 }
