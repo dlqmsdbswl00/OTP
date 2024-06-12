@@ -25,11 +25,13 @@
                 <TextBlock Style="{StaticResource MainTitleBlockStyle}"
                            Text="3) 오픈소스 SW 공급망 구성요소 및 추세 / 피해사례"/>
 
+                 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="1. SW 공급망 구성요소"/>
                 <Image Source="/Images/오픈소스공급망구성요소추세.png" Width="780" Margin="0,10,0,10" />
 
-
+                
+                 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                        Text="2. 하나의 취약점과 공격으로 퍼질 수 있는 SW 공급망 피해"/>
 
@@ -58,6 +60,8 @@
                        Text="2021년 보안 취약점 발견으로 모든 서버에 영향을 미칠 수 있는 취약점으로 분류"/>
 
 
+
+                 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}">
                     <Run Text="3. SW 공급망 보안을 위한 방법 -> 모든 구성 SW의 '무결성'목적의 "/>
                     <Hyperlink NavigateUri="https://www.ibm.com/kr-ko/topics/zero-trust">
@@ -108,7 +112,7 @@
                            Text="SW Supply Chain Security는 SW 개발부터 배포까지 모든 프로세스의 보안과 무결성 보장 조치 의미"/>
 
 
-
+                 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="4. 컴퓨터프로그램 저작물로써 오픈소스 보호"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
@@ -144,10 +148,17 @@
                            Text="3. 여과 과정 후 남은 부분을 보호 대상과의 비교하여 실질적 유사성을 판단"/>
 
 
+                 
                 <TextBlock Style="{StaticResource SubtitleBlockStyle}"
                            Text="5. 저작권법 제한의 유형과 오픈소스 공정사용"/>
                 <TextBlock Style="{StaticResource BodyTextBlockStyle}"
                            Text="- 오픈(개방)의 특성으로 공공 이익 도모 취지의 공정 사용으로 소송의 변수로 작용할 수 있음"/>
+                <TextBlock Style="{StaticResource Sub-subtitleBlockStyle}"
+                           Text="프로그램 저작권 제한"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 저작권법은 저작권자의 배타적 지배권과 동시에 공공 이익 도모"/>
+                <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                           Text="- 저작권법의 목적 : 문화 향상 발전 이바지"/>
                 
 
 

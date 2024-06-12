@@ -2,19 +2,19 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <!-- 색상 리소스 정의 -->
-    <Color x:Key="MainBlueColor">#007AFF</Color>
-    <Color x:Key="DarkBlueColor">#4e5761</Color>
+    <Color x:Key="MainBlueColor">#0174DF</Color>
+    <Color x:Key="LightBlueColor">#58ACFA</Color>
 
     <!-- 브러쉬 리소스 정의 -->
     <SolidColorBrush x:Key="MainBlueBrush" Color="{StaticResource MainBlueColor}"/>
-    <SolidColorBrush x:Key="DarkBlueBrush" Color="{StaticResource DarkBlueColor}"/>
+    <SolidColorBrush x:Key="LightBlueBrush" Color="{StaticResource LightBlueColor}"/>
     
     <!--대제목 스타일-->
     <Style x:Key="MainTitleBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="24"/>
         <Setter Property="Foreground" Value="{StaticResource MainBlueBrush}"/>
-        <Setter Property="Margin" Value="0,0,0,20"/>
+        <Setter Property="Margin" Value="0,10,0,20"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>
@@ -23,8 +23,8 @@
     <Style x:Key="SubtitleBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Foreground" Value="{StaticResource DarkBlueBrush}"/>
-        <Setter Property="Margin" Value="20,0,0,10"/>
+        <Setter Property="Foreground" Value="{StaticResource LightBlueBrush}"/>
+        <Setter Property="Margin" Value="20,20,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>
@@ -34,7 +34,7 @@
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="18"/>
         <Setter Property="Foreground" Value="Black"/>
-        <Setter Property="Margin" Value="15,0,0,5"/>
+        <Setter Property="Margin" Value="15,10,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>
@@ -44,7 +44,7 @@
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="16"/>
         <Setter Property="Foreground" Value="Black"/>
-        <Setter Property="Margin" Value="20,0,0,10"/>
+        <Setter Property="Margin" Value="20,10,0,10"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
     </Style>
